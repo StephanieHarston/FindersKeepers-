@@ -1,5 +1,5 @@
 
-// Je veux looper through un arr et faire passer chaque élément de cet arr dans une fonction. Dès que l'un des num vérifie la fonction ou que le résultat = true => return num else return undefined. 
+// Je veux looper through un arr et faire passer chaque élément de cet arr dans une fonction. Dès que l'un des num vérifie la fonction ou que le résultat == true => return num else return undefined. 
 function findElement(arr, func) {
   let num = 0;
   for (let i = 0; i < arr.length; i++) {
